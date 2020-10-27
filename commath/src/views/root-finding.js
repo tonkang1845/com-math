@@ -17,9 +17,9 @@ import { getRootFinding } from "../functions/function";
 
 function RootFinding() {
   const navigate = useNavigate();
-  const [a, seta] = useState(0);
-  const [b, setb] = useState(1);
-  const [dx, setdx] = useState(0.0001);
+  const [a, seta] = useState();
+  const [b, setb] = useState();
+  const [dx, setdx] = useState();
   const [result, setresult] = useState();
 
   const back = () => {
@@ -40,7 +40,7 @@ function RootFinding() {
 
   return (
     <div>
-      <Row style={{ marginTop: "5%" }}>
+      {/* <Row style={{ marginTop: "5%" }}>
         <Col sm="3"></Col>
         <Col sm="6">
           <div className="text-center">
@@ -131,7 +131,7 @@ function RootFinding() {
         </Col>
 
         <Col sm="3"></Col>
-      </Row>
+      </Row> */}
     </div>
   );
 }

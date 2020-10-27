@@ -14,7 +14,7 @@ function Main() {
 
   return (
     <div>
-      <h1 className="text-center" style={{ marginTop: "5%" }}>
+      {/* <h1 className="text-center" style={{ marginTop: "5%" }}>
         เลือกบท
       </h1>
       <Row style={{ marginTop: "5%" }}>
@@ -117,7 +117,7 @@ function Main() {
           </div>
         </Col>
         <Col sm="3"></Col>
-      </Row>
+      </Row> */}
     </div>
   );
 }

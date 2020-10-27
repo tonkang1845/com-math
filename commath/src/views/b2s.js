@@ -17,7 +17,7 @@ import { useNavigate } from "react-router-dom";
 
 function B2s() {
   const navigate = useNavigate();
-  const [bit2string, setBit2string] = useState("01111000000001010000000000000000");
+  const [bit2string, setBit2string] = useState();
   const [result, setResult] = useState("");
   const generate = () => {
     getB2s(bit2string).then((res) => {
@@ -31,7 +31,7 @@ function B2s() {
 
   return (
     <div class="body">
-      <Row style={{ marginTop: "15%" }}>
+      {/* <Row style={{ marginTop: "15%" }}>
         <Col sm="2"></Col>
         <Col sm="8">
           <div className="text-center">
@@ -83,7 +83,7 @@ function B2s() {
           </div>
         </Col>
         <Col sm="2"></Col>
-      </Row>
+      </Row> */}
     </div>
   );
 }

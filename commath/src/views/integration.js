@@ -19,8 +19,8 @@ function Integration() {
   const navigate = useNavigate();
 
   const [result, setresult] = useState();
-  const [a, seta] = useState(0);
-  const [b, setb] = useState(3);
+  const [a, seta] = useState();
+  const [b, setb] = useState();
 
   const back = () => {
     navigate("/");
@@ -37,7 +37,7 @@ function Integration() {
   };
   return (
     <div>
-      <Row style={{ marginTop: "5%" }}>
+      {/* <Row style={{ marginTop: "5%" }}>
         <Col sm="4"></Col>
         <Col sm="4">
           <div className="text-center">
@@ -112,7 +112,7 @@ function Integration() {
         </Col>
 
         <Col sm="4"></Col>
-      </Row>
+      </Row> */}
     </div>
   );
 }

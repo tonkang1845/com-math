@@ -17,8 +17,8 @@ import { getDifferentiation } from "../functions/function";
 
 function Differentiation() {
   const navigate = useNavigate();
-  const [h, seth] = useState(0.64);
-  const [p, setp] = useState(2);
+  const [h, seth] = useState();
+  const [p, setp] = useState();
 
   const [result, setresult] = useState();
 
@@ -39,7 +39,7 @@ function Differentiation() {
 
   return (
     <div>
-      <Row style={{ marginTop: "5%" }}>
+      {/* <Row style={{ marginTop: "5%" }}>
         <Col sm="4"></Col>
         <Col sm="4">
           <div className="text-center">
@@ -114,7 +114,7 @@ function Differentiation() {
         </Col>
 
         <Col sm="4"></Col>
-      </Row>
+      </Row> */}
     </div>
   );
 }
