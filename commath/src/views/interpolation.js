@@ -260,7 +260,6 @@ function Interpolation() {
               x = [ 0, 8, 14, 20, 23, 30 ]<p></p>
               y = [ 0, 50, 96, 110, 100, 86 ]<p></p>
           </div>
-        
           </div>
           </div>
   );
