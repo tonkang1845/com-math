@@ -14,112 +14,72 @@ function Main() {
 
   return (
     <div>
-      {/* <h1 className="text-center" style={{ marginTop: "5%" }}>
-        เลือกบท
-      </h1>
-      <Row style={{ marginTop: "5%" }}>
-        <Col sm="3"></Col>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
+    <body></body>
+    <br>
+      <div class="w3-container">
+	      <h4 align="left"> 61114440403 นายพงศนาถ ขันอาสา </h4>
+        <h2 align="center">- Computational Mathematics -</h2>
+      </div>
 
-        <Col sm="6">
-          <div className="text-center">
-            <Row>
-              <Col sm="6">
-                <Card>
-                  <CardTitle>
-                    <h3 style={{ marginTop: "10px" }}>บทที่ 1</h3>
-                  </CardTitle>
-                  <CardText>
-                    <h4>Basic Computing</h4>
-                  </CardText>
-                 
-                    <Button onClick={()=>{nextPage("b2s")}} color="primary">
-                      <h3 style={{ marginTop: "10px" }}>เริ่ม</h3>
-                    </Button>
-                  
-                </Card>
-              </Col>
+      <div class="w3-row-padding">
 
-              <Col sm="6">
-                <Card>
-                  <CardTitle>
-                    <h3 style={{ marginTop: "10px" }}>บทที่ 2</h3>
-                  </CardTitle>
-                  <CardText>
-                    <h4>Linear Equations</h4>
-                  </CardText>
-                  <Button onClick={()=>{nextPage("elimination")}} color="primary">
-                    <h3 style={{ marginTop: "10px" }}>เริ่ม</h3>
-                  </Button>
-                </Card>
-              </Col>
-            </Row>
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-green w3-xlarge w3-padding-32">บทที่ 1</li>
+        <li class="w3-padding-16"><b>Basic Computing</b> </li>
+        <button class="w3-button w3-green w3-padding-large" onClick={()=>{nextPage("b2s")}}>Sign Up</button>
+        </ul>
+    </div>
 
-            <Row className="text-center" style={{ marginTop: "20px" }}>
-              <Col sm="6">
-                <Card>
-                  <CardTitle>
-                    <h3 style={{ marginTop: "10px" }}>บทที่ 3</h3>
-                  </CardTitle>
-                  <CardText>
-                    <h4>Interpolation</h4>
-                  </CardText>
-                  <Button onClick={()=>{nextPage("interpolation")}} color="primary">
-                    <h3 style={{ marginTop: "10px" }}>เริ่ม</h3>
-                  </Button>
-                </Card>
-              </Col>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+      <li class="w3-black w3-xlarge w3-padding-32">บทที่ 2</li>
+      <li class="w3-padding-16"><b>Linear Equations</b></li>
+      <button class="w3-button w3-green w3-padding-large" onClick={()=>{nextPage("elimination")}}>Sign Up</button>
+      </ul>
+    </div>
 
-              <Col sm="6">
-                <Card>
-                  <CardTitle>
-                    <h3 style={{ marginTop: "10px" }}>บทที่ 4</h3>
-                  </CardTitle>
-                  <CardText>
-                    <h4>Differentiation</h4>
-                  </CardText>
-                  <Button onClick={()=>{nextPage("differentiation")}} color="primary">
-                    <h3 style={{ marginTop: "10px" }}>เริ่ม</h3>
-                  </Button>
-                </Card>
-              </Col>
-            </Row>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-green w3-xlarge w3-padding-32">บทที่ 3</li>
+        <li class="w3-padding-16"><b>Interpolation</b> </li>
+          <button class="w3-button w3-green w3-padding-large" onClick={()=>{nextPage("interpolation")}}>Sign Up</button>
+      </ul>
+    </div>
 
 
-            <Row className="text-center" style={{ marginTop: "20px" }}>
-              <Col sm="6">
-                <Card>
-                  <CardTitle>
-                    <h3 style={{ marginTop: "10px" }}>บทที่ 5</h3>
-                  </CardTitle>
-                  <CardText>
-                    <h4>Integration</h4>
-                  </CardText>
-                  <Button onClick={()=>{nextPage("integration")}} color="primary">
-                    <h3 style={{ marginTop: "10px" }}>เริ่ม</h3>
-                  </Button>
-                </Card>
-              </Col>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">บทที่ 4</li>
+        <li class="w3-padding-16"><b>Differentiation</b></li>
 
-              <Col sm="6">
-                <Card>
-                  <CardTitle>
-                    <h3 style={{ marginTop: "10px" }}>บทที่ 6</h3>
-                  </CardTitle>
-                  <CardText>
-                    <h4>Root-finding</h4>
-                  </CardText>
-                  <Button onClick={()=>{nextPage("root-finding")}} color="primary">
-                    <h3 style={{ marginTop: "10px" }}>เริ่ม</h3>
-                  </Button>
-                </Card>
-              </Col>
-            </Row>
-          </div>
-        </Col>
-        <Col sm="3"></Col>
-      </Row> */}
+          <button class="w3-button w3-green w3-padding-large" onClick={()=>{nextPage("differentiation")}}>Sign Up</button>
+      </ul>
+    </div>
+
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-green w3-xlarge w3-padding-32">บทที่ 5</li>
+        <li class="w3-padding-16"><b>Integration</b></li>
+
+          <button class="w3-button w3-green w3-padding-large" onClick={()=>{nextPage("integration")}}>Sign Up</button>
+      </ul>
+    </div>
+
+<div class="w3-third w3-margin-bottom">
+  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+    <li class="w3-black w3-xlarge w3-padding-32">บทที่ 6</li>
+    <li class="w3-padding-16"><b>Root-finding</b></li>
+      <button class="w3-button w3-green w3-padding-large" onClick={()=>{nextPage("root-finding")}}>Sign Up</button>
+  </ul>
+</div>
+</div>
+
+    </br>
     </div>
   );
 }
-
-export default Main;
+export default Main ;

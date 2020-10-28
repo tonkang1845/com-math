@@ -31,61 +31,46 @@ function B2s() {
 
   return (
     <div class="body">
-      {/* <Row style={{ marginTop: "15%" }}>
-        <Col sm="2"></Col>
-        <Col sm="8">
-          <div className="text-center">
-            <h2 style={{ marginTop: "20px", marginRight: "20px" }}>
-              Basic Computing
-            </h2>
-          </div>
-          <div className="text-center">
-            <p>exam: 01111000000001010000000000000000</p>
-          </div>
-          <div>
-            <Row>
-              <Col sm="2"></Col>
-              <Col sm="8">
-                <Card style={{ alignItems: "center" }}>
-                  <Input
-                    style={{
-                      marginTop: "20px",
-                      marginBottom: "20px",
-                      width: 500,
-                    }}
-                    value={bit2string}
-                    type="text"
-                    name="bit2string"
-                    id="bit2string"
-                    onChange={(e) => setBit2string(e.target.value)}
-                  />
-                  <h4>ผลลัพธ์: {result}</h4>
-                  <Row style={{ marginBottom: "30px" }}>
-                    <Col sm="8">
-                      <Button onClick={generate} color="primary">
-                        <div style={{ width: 300 }}>
-                          <h3 style={{ marginTop: "10px" }}>คำนวณ</h3>
-                        </div>
-                      </Button>
-                    </Col>
-                    <Col sm="4">
-                      <Button onClick={back} color="secondary">
-                        <div style={{ width: 100 }}>
-                          <h3 style={{ marginTop: "10px" }}>กลับ</h3>
-                        </div>
-                      </Button>
-                    </Col>
-                  </Row>
-                </Card>
-              </Col>
-              <Col sm="2"></Col>
-            </Row>
-          </div>
-        </Col>
-        <Col sm="2"></Col>
-      </Row> */}
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
+      <body>
+      <br>
+  
+      <div class="w3-container">
+
+          <h2>Basic Computing</h2>
+      </div>
+  
+    <div class="w3-row-padding">
+  
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+       <li class="w3-black w3-xlarge w3-padding-32">
+        <Input
+                        style={{
+                          marginTop: "20px",
+                          marginBottom: "20px",
+                          width: 500,
+                        }}
+                        value={bit2string}
+                        type="text"
+                        name="bit2string"
+                        id="bit2string"
+                        onChange={(e) => setBit2string(e.target.value)}/>
+                      </li>
+      <li class="w3-light-grey w3-padding-24">
+      <h4>answer : {result}</h4>
+        <button class="w3-button w3-green w3-padding-large" onClick={generate} >OK</button>
+    
+        <button class="w3-button w3-green w3-padding-large" onClick={back}>back</button>
+      </li>
+    </ul>
+    <h3>exam: 01111000000001010000000000000000</h3>
+  </div>
     </div>
+    </br>
+    </body>
+  </div>
   );
 }
-
 export default B2s;
